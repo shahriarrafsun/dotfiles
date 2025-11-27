@@ -1,0 +1,22 @@
+/* 💀 Monokai Pro */
+
+@define-color bg         #2D2A2E;
+@define-color bg2        #1E1E1E;
+@define-color bg3        #403E41;
+
+@define-color fg         #FCFCFA;
+@define-color text1      #FFD866;
+@define-color text2      #AB9DF2;
+@define-color text3      #939293;
+
+@define-color accent     #78DCE8;
+@define-color active     #A9DC76;
+
+@define-color red        #FF6188;
+@define-color green      #A9DC76;
+@define-color yellow     #FFD866;
+@define-color blue       #78DCE8;
+@define-color purple     #AB9DF2;
+@define-color cyan       #78DCE8;
+@define-color orange     #FC9867;
+@define-color gray       #727072;

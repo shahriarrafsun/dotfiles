@@ -1,0 +1,22 @@
+/* 🪟 Windows 7 Theme */
+@define-color bg         rgba(36, 52, 71, 0.85);  /* translucent dark glass */
+@define-color bg2        rgba(52, 73, 94, 0.85);  /* slightly lighter glass */
+@define-color bg3        rgba(70, 100, 130, 0.9); /* active bar shine */
+
+@define-color fg         #e7eef7;  /* bright text on dark glass */
+@define-color text1      #d0e6ff;  /* soft white-blue text */
+@define-color text2      #99ccff;  /* hover blue highlight */
+@define-color text3      #aab7c4;  /* muted gray text */
+
+@define-color accent     #3399ff;  /* main Windows 7 blue */
+@define-color active     #66b3ff;  /* hover/active highlight */
+
+@define-color red        #ff4b4b;  /* close button red */
+@define-color green      #6fd36f;  /* success / active state */
+@define-color yellow     #f0c050;  /* warning highlight */
+@define-color blue       #3399ff;  /* standard Windows blue */
+@define-color purple     #9b59b6;
+@define-color cyan       #5ecbff;
+@define-color orange     #ffb84d;
+@define-color gray       #7f8c8d;  /* borders/inactive text */
+

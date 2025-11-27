@@ -1,0 +1,22 @@
+/* 🥛 Catppuccin Latte Light Theme */
+
+@define-color bg #eff1f5;
+@define-color bg2 #e6e9ef;
+@define-color bg3 #dce0e8;
+
+@define-color fg #4c4f69;
+@define-color text1 #5c5f77;
+@define-color text2 #6c6f85;
+@define-color text3 #8c8fa1;
+
+@define-color accent #1e66f5;
+@define-color active #7287fd;
+
+@define-color red #d20f39;
+@define-color green #40a02b;
+@define-color yellow #df8e1d;
+@define-color blue #1e66f5;
+@define-color purple #8839ef;
+@define-color cyan #04a5e5;
+@define-color orange #fe640b;
+@define-color gray #9ca0b0;

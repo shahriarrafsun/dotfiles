@@ -1,0 +1,16 @@
+* {
+    bg0:    #40318dF2;  /* Deep blue */
+    bg1:    #302873;    /* Darker blue */
+    bg2:    #70a4b2B0;  /* Cyan overlay */
+    bg3:    #a8a8ffF2;  /* Light lavender */
+    fg0:    #a8a8ff;    /* Main text */
+    fg1:    #b8b8ff;    /* Brighter highlight */
+    fg2:    #8c8cff;    /* Secondary text */
+    fg3:    #70a4b2;    /* Accent cyan */
+}
+
+@import "template/rounded-template.rasi"
+
+element selected {
+    text-color: @bg1;
+}

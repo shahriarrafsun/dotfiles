@@ -1,0 +1,22 @@
+/* 🧠 Belle Pintos Grande Retro Theme */
+
+@define-color bg         #f2e6d9;   /* Warm beige background */
+@define-color bg2        #e0d1b8;   /* Slightly darker for separators */
+@define-color bg3        #c8b394;   /* Even darker for accents */
+
+@define-color fg         #3b2f2f;   /* Main text (dark brown) */
+@define-color text1      #3b2f2f;   /* Primary text */
+@define-color text2      #5a4a4a;   /* Secondary text */
+@define-color text3      #7d6b6b;   /* Dimmed text */
+
+@define-color accent     #d9896a;   /* Warm coral highlight */
+@define-color active     #f2b87c;   /* Bright active element */
+
+@define-color red        #b54242;   /* Retro red */
+@define-color green      #5a9241;   /* Muted green */
+@define-color yellow     #d9b257;   /* Mustard yellow */
+@define-color blue       #6c7aa6;   /* Soft pastel blue */
+@define-color purple     #a072b8;   /* Lavenderish purple */
+@define-color cyan       #70a4b2;   /* Tealish accent */
+@define-color orange     #d9863f;   /* Soft orange */
+@define-color gray       #8c857d;   /* Muted gray */

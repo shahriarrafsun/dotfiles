@@ -1,0 +1,24 @@
+/* === Warm White Monochrome (Light Mode) === */
+
+@define-color bg #c9ba96;
+@define-color bg2 #bcab85;
+@define-color bg3 #ad9c74;
+
+@define-color fg #150f05;
+@define-color text1 #2e2412;
+@define-color text2 #4a3c25;
+@define-color text3 #695a40;
+
+/* Accents — darker warm black tones for contrast */
+@define-color accent #150f05;
+@define-color active #2e2412;
+
+/* Semantic "colors" = monochrome equivalents */
+@define-color red #4a3c25;
+@define-color green #2e2412;
+@define-color yellow #9f8f69;
+@define-color blue #150f05;
+@define-color purple #4a3c25;
+@define-color cyan #2e2412;
+@define-color orange #9f8f69;
+@define-color gray #ad9c74;

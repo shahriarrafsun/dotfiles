@@ -1,0 +1,22 @@
+/* 🏙️ Raleigh Theme */
+
+@define-color bg         #dcdad5;   /* Main background */
+@define-color bg2        #c8c6c1;   /* Slightly darker gray */
+@define-color bg3        #b8b6b0;   /* Even darker for separators/borders */
+
+@define-color fg         #2e3436;   /* Text color */
+@define-color text1      #2e3436;   /* Primary text */
+@define-color text2      #555753;   /* Secondary text */
+@define-color text3      #888a85;   /* Dimmed text */
+
+@define-color accent     #729fcf;   /* Classic GNOME blue accent */
+@define-color active     #3465a4;   /* Focused or active element */
+
+@define-color red        #cc0000;
+@define-color green      #4e9a06;
+@define-color yellow     #c4a000;
+@define-color blue       #3465a4;
+@define-color purple     #75507b;
+@define-color cyan       #06989a;
+@define-color orange     #ce5c00;
+@define-color gray       #888a85;

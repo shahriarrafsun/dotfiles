@@ -1,0 +1,22 @@
+/* 🧠 Commodore 64 Theme */
+
+@define-color bg         #40318d;   /* Deep blue background */
+@define-color bg2        #302873;   /* Slightly darker blue */
+@define-color bg3        #221d54;   /* Even darker for separators */
+
+@define-color fg         #a8a8ff;   /* Main text color (light lavender) */
+@define-color text1      #a8a8ff;   /* Primary text */
+@define-color text2      #8c8cff;   /* Secondary text */
+@define-color text3      #6c6cff;   /* Dimmed text */
+
+@define-color accent     #70a4b2;   /* Cyan highlight */
+@define-color active     #b8b8ff;   /* Bright cyan-lavender active color */
+
+@define-color red        #883932;
+@define-color green      #55a049;
+@define-color yellow     #bfce72;
+@define-color blue       #40318d;
+@define-color purple     #8b3f96;
+@define-color cyan       #70a4b2;
+@define-color orange     #c46c33;
+@define-color gray       #b8b8b8;

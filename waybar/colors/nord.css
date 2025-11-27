@@ -1,0 +1,22 @@
+/* ❄️ Nord Theme */
+
+@define-color bg         #2E3440;  /* Base background */
+@define-color bg2        #3B4252;  /* Darker background (panels, hover) */
+@define-color bg3        #434C5E;  /* Lighter background (active, highlight) */
+
+@define-color fg         #D8DEE9;  /* Main foreground */
+@define-color text1      #ECEFF4;  /* Bright text */
+@define-color text2      #E5E9F0;  /* Muted text */
+@define-color text3      #C8D0E0;  /* Subtle text */
+
+@define-color accent     #88C0D0;  /* Teal-blue accent */
+@define-color active     #81A1C1;  /* Active workspace color */
+
+@define-color red        #BF616A;  /* Red (error, urgent) */
+@define-color green      #A3BE8C;  /* Green (success, ok) */
+@define-color yellow     #EBCB8B;  /* Yellow (warning/info) */
+@define-color blue       #5E81AC;  /* Blue */
+@define-color purple     #B48EAD;  /* Purple (accent) */
+@define-color cyan       #88C0D0;  /* Cyan (main accent) */
+@define-color orange     #D08770;  /* Orange highlight */
+@define-color gray       #616E88;  /* Neutral gray */

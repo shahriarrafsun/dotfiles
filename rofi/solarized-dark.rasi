@@ -1,0 +1,19 @@
+/* ROUNDED THEME FOR ROFI */
+/* Theme: Solarized Dark */
+
+* {
+    bg0:    #002b36F2;
+    bg1:    #073642;
+    bg2:    #586e75B0;
+    bg3:    #268bd2F2;
+    fg0:    #eee8d5;
+    fg1:    #fdf6e3;
+    fg2:    #eee8d5;
+    fg3:    #93a1a1;
+}
+
+@import "template/rounded-template.rasi"
+
+element selected {
+    text-color: @bg1;
+}

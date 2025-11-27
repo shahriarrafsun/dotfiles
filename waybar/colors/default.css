@@ -1,0 +1,23 @@
+/* 🧩 Default Black & White Theme */
+
+@define-color bg         #0a0a0a;   /* Deep black background */
+@define-color bg2        #141414;   /* Slightly lighter black */
+@define-color bg3        #1e1e1e;   /* Soft dark gray */
+
+@define-color fg         #f5f5f5;   /* Main text (white) */
+@define-color text1      #ffffff;   /* Bright white text */
+@define-color text2      #d0d0d0;   /* Subtle gray text */
+@define-color text3      #a0a0a0;   /* Muted text */
+
+@define-color accent     #ffffff;   /* White accent */
+@define-color active     #e0e0e0;   /* Slightly dimmed white for active elements */
+
+@define-color red        #cccccc;   /* Desaturated light gray */
+@define-color green      #d9d9d9;   /* Neutral gray tone */
+@define-color yellow     #e6e6e6;   /* Soft light gray */
+@define-color blue       #f2f2f2;   /* Very light gray (almost white) */
+@define-color purple     #dcdcdc;   /* Mid-gray */
+@define-color cyan       #e0e0e0;   /* Gentle white-gray */
+@define-color orange     #bfbfbf;   /* Medium gray */
+@define-color gray       #707070;   /* Neutral gray for borders or secondary UI */
+

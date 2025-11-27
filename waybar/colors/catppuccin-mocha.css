@@ -1,0 +1,28 @@
+/* 🌸 Catppuccin Mocha Theme (Mapped to Gruvbox Palette Structure) */
+
+@define-color bg         #1e1e2e;  /* Base background */
+@define-color bg2        #181825;  /* Slightly darker for panels */
+@define-color bg3        #11111b;  /* Deep background (hover/active) */
+
+@define-color fg         #cdd6f4;  /* Main foreground */
+@define-color text1      #f5e0dc;  /* Softer text (light pink tone) */
+@define-color text2      #bac2de;  /* Muted text */
+@define-color text3      #a6adc8;  /* Dim text for subtle elements */
+
+@define-color accent     #89b4fa;  /* Blue accent */
+@define-color active     #b4befe;  /* Light blue for active workspaces */
+
+@define-color red        #f38ba8;  /* Red (error, warning) */
+@define-color green      #a6e3a1;  /* Green (success, good) */
+@define-color yellow     #f9e2af;  /* Yellow (warning/info) */
+@define-color blue       #89b4fa;  /* Blue */
+@define-color purple     #cba6f7;  /* Purple accent (mapped from mauve) */
+@define-color aqua       #94e2d5;  /* Aqua/Teal accent (mapped from teal) */
+@define-color orange     #fab387;  /* Orange accent (mapped from peach) */
+@define-color gray       #8c8caa;  /* Neutral gray (approximation) */
+
+/* Optional additional Catppuccin-specific colors */
+@define-color pink       #f5c2e7;  /* Soft pink for accenting */
+@define-color flamingo   #f2cdcd;  /* Muted pink */
+@define-color sky        #89dceb;  /* Sky blue variant */
+

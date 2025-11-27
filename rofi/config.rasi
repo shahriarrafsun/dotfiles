@@ -1,0 +1,10 @@
+configuration {
+    modi: "drun,run,window";
+    show-icons: true;
+    font: "JetBrainsMono Nerd Font Mono 10";
+    display-drun: "  Apps";
+    display-run: "  Run";
+    display-window: "  Windows";
+}
+@theme "/home/rafsun/.config/rofi/gruvbox-dark.rasi"
+

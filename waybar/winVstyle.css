@@ -1,0 +1,209 @@
+/* =============================================================================
+ * Waybar Configuration - Windows Vista / 7 Aero Look
+ * =========================================================================== */
+
+@import "colors/windowsvista.css";
+
+/* -----------------------------------------------------------------------------
+ * Keyframes (battery alerts etc.)
+ * -------------------------------------------------------------------------- */
+@keyframes blink-warning {
+  70% { color: @fg; }
+  to { color: @yellow; }
+}
+
+@keyframes blink-critical {
+  70% { color: @fg; }
+  to { color: @red; }
+}
+
+/* -----------------------------------------------------------------------------
+ * Base Styles
+ * -------------------------------------------------------------------------- */
+* {
+  border: none;
+  border-radius: 0;
+  min-height: 0;
+  margin: 0;
+  padding: 0;
+}
+
+#waybar {
+  background: @bg;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  color: @fg;
+  font-family: "Segoe UI", "Tahoma", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.4);
+}
+
+/* Modules general padding */
+#battery,
+#clock,
+#cpu,
+#memory,
+#mode,
+#network,
+#pulseaudio,
+#temperature,
+#tray,
+#taskbar,
+#window {
+  padding: 0 10px;
+}
+
+/* -----------------------------------------------------------------------------
+ * Individual Modules
+ * -------------------------------------------------------------------------- */
+
+/* Battery */
+#battery {
+  color: @green;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+#battery.warning { color: @yellow; }
+#battery.critical { color: @red; }
+#battery.warning.discharging {
+  animation-name: blink-warning;
+  animation-duration: 3s;
+}
+#battery.critical.discharging {
+  animation-name: blink-critical;
+  animation-duration: 2s;
+}
+
+/* Clock */
+#clock {
+  color: @fg;
+  font-weight: 500;
+}
+
+/* CPU / Memory */
+#cpu { color: @yellow; }
+#memory { color: @blue; }
+#cpu.warning, #memory.warning { color: @yellow; }
+#cpu.critical, #memory.critical { color: @red; }
+
+/* Network */
+#network { color: @blue; }
+#network.disconnected { color: @yellow; }
+
+/* Pulseaudio */
+#pulseaudio { color: @green; }
+#pulseaudio.muted { color: rgba(255,255,255,0.4); }
+
+/* Temperature */
+#temperature { color: @purple; }
+#temperature.critical { color: @red; }
+
+/* Tray */
+#tray {
+  padding: 0 8px;
+  color: @fg;
+}
+
+/* -----------------------------------------------------------------------------
+ * Taskbar (Vista Aero Buttons)
+ * -------------------------------------------------------------------------- */
+
+#taskbar {
+  margin: 0 4px;
+}
+
+#taskbar button {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 6px;
+  margin: 3px 4px;
+  padding: 4px 8px;
+  color: @fg;
+  transition: all 0.25s ease-in-out;
+  box-shadow: inset 0 1px 1px rgba(255,255,255,0.15),
+              0 1px 2px rgba(0,0,0,0.3);
+}
+
+#taskbar button:hover {
+  background: rgba(255, 255, 255, 0.18);
+  color: white;
+}
+
+#taskbar button.active {
+  background: linear-gradient(to bottom, rgba(0,183,255,0.5), rgba(0,110,200,0.3));
+  border: 1px solid rgba(255,255,255,0.4);
+  color: #ffffff;
+  text-shadow: 0 0 5px rgba(0,183,255,0.6);
+  box-shadow: 0 0 8px rgba(0,183,255,0.5);
+  transition: all 0.3s ease-in-out;
+}
+
+/* -----------------------------------------------------------------------------
+ * Workspaces (Vista-style tabs)
+ * -------------------------------------------------------------------------- */
+
+#workspaces button {
+  all: unset;
+  padding: 5px 12px;
+  margin: 2px 4px;
+  border-radius: 6px;
+  color: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.08);
+  transition: all 0.25s ease-in-out;
+}
+
+#workspaces button:hover {
+  background: rgba(255,255,255,0.18);
+  color: white;
+}
+
+#workspaces button.active {
+  background: linear-gradient(to bottom, rgba(0,183,255,0.5), rgba(0,110,200,0.3));
+  color: #ffffff;
+  border: 1px solid rgba(255,255,255,0.4);
+  box-shadow: 0 0 8px rgba(0,183,255,0.5);
+}
+
+/* -----------------------------------------------------------------------------
+ * Custom Menus
+ * -------------------------------------------------------------------------- */
+
+#custom-menu {
+  background: linear-gradient(to bottom, rgba(255,255,255,0.15), rgba(0,0,0,0.2));
+  color: @fg;
+  border-radius: 6px;
+  padding: 4px 10px;
+  transition: all 0.2s ease-in-out;
+}
+#custom-menu:hover {
+  background: linear-gradient(to bottom, rgba(0,183,255,0.4), rgba(0,110,200,0.3));
+  color: #ffffff;
+}
+
+#custom-powermenu {
+  background: rgba(255, 64, 64, 0.8);
+  color: #ffffff;
+  border-radius: 6px;
+  padding: 4px 10px;
+  font-size: 12px;
+  border: 1px solid rgba(255,255,255,0.3);
+}
+#custom-powermenu:hover {
+  background: rgba(255, 64, 64, 1);
+}
+
+#custom-theme {
+  color: @accent;
+  padding: 4px 10px;
+  font-size: 12px;
+}
+
+/* -----------------------------------------------------------------------------
+ * Window Title
+ * -------------------------------------------------------------------------- */
+#window {
+  color: @fg;
+  padding-left: 15px;
+  font-weight: 500;
+}

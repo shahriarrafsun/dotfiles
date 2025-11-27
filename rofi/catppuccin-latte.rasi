@@ -1,0 +1,19 @@
+/* ROUNDED THEME FOR ROFI */
+/* Theme: Catppuccin Latte */
+
+* {
+    bg0:    #eff1f5F2;
+    bg1:    #e6e9ef;
+    bg2:    #ccd0daB0;
+    bg3:    #1e66f5F2;
+    fg0:    #4c4f69;
+    fg1:    #5c5f77;
+    fg2:    #4c4f69;
+    fg3:    #7c7f93;
+}
+
+@import "template/rounded-template.rasi"
+
+element selected {
+    text-color: @bg1;
+}

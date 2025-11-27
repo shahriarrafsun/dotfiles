@@ -1,0 +1,23 @@
+/* 🌿 Gruvbox Dark Theme */
+
+@define-color bg         #282828;  /* Base background */
+@define-color bg2        #1d2021;  /* Darker background for bars/panels */
+@define-color bg3        #3c3836;  /* Slightly lighter background (hover/active) */
+
+@define-color fg         #ebdbb2;  /* Main foreground */
+@define-color text1      #fbf1c7;  /* Bright text */
+@define-color text2      #d5c4a1;  /* Muted text */
+@define-color text3      #bdae93;  /* Dim text / subtle info */
+
+@define-color accent     #d79921;  /* Yellow accent */
+@define-color active     #fabd2f;  /* Bright yellow for active workspace highlight */
+
+@define-color red        #cc241d;  /* Red (error, urgent) */
+@define-color green      #98971a;  /* Green (success, good) */
+@define-color yellow     #d79921;  /* Yellow (warning) */
+@define-color blue       #458588;  /* Blue */
+@define-color purple     #b16286;  /* Purple */
+@define-color aqua       #689d6a;  /* Aqua / Teal */
+@define-color orange     #d65d0e;  /* Orange accent */
+@define-color gray       #928374;  /* Neutral gray for separators */
+

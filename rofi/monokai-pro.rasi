@@ -1,0 +1,16 @@
+* {
+    bg0:    #2D2A2E;     /* Background base */
+    bg1:    #403E41;     /* Dark accent */
+    bg2:    #5B595C;     /* Mid tone accent */
+    bg3:    #FFD866CC;   /* Highlight / selection */
+    fg0:    #FCFCFA;     /* Main foreground */
+    fg1:    #FFD866;     /* Accent yellow */
+    fg2:    #FF6188;     /* Accent pink/red */
+    fg3:    #78DCE8;     /* Accent cyan */
+}
+
+@import "template/rounded-template.rasi"
+
+element selected {
+    text-color: @bg1;
+}

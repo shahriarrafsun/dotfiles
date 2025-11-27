@@ -1,0 +1,19 @@
+/* ROUNDED THEME FOR ROFI */
+/* Theme: Gruvbox Light */
+
+* {
+    bg0:    #fbf1c7F2;
+    bg1:    #ebdbb2;
+    bg2:    #d5c4a1B0;
+    bg3:    #b57614F2;
+    fg0:    #3c3836;
+    fg1:    #504945;
+    fg2:    #3c3836;
+    fg3:    #7c6f64;
+}
+
+@import "template/rounded-template.rasi"
+
+element selected {
+    text-color: @bg1;
+}

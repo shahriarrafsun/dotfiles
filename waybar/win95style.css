@@ -1,0 +1,204 @@
+/* =============================================================================
+ * 🪟 Windows 95 Waybar Theme
+ * Retro gray interface with pixel borders and sharp shadows
+ * ========================================================================== */
+
+/* -----------------------------------------------------------------------------
+ * Palette (Win95 Grays)
+ * -------------------------------------------------------------------------- */
+@define-color bg         #C0C0C0;   /* Window background */
+@define-color bg2        #A0A0A0;   /* Shaded gray for inner panels */
+@define-color bg3        #808080;   /* Dark gray for shadows */
+
+@define-color fg         #000000;   /* Black text */
+@define-color text1      #000000;
+@define-color text2      #202020;
+@define-color text3      #404040;
+
+@define-color accent     #FFFFFF;   /* Light bevel edge */
+@define-color active     #000080;   /* Win95 blue highlight */
+
+@define-color red        #FF0000;
+@define-color green      #008000;
+@define-color yellow     #FFD700;
+@define-color blue       #0000FF;
+@define-color purple     #800080;
+@define-color cyan       #008B8B;
+@define-color orange     #A0522D;
+@define-color gray       #808080;
+
+/* -----------------------------------------------------------------------------
+ * Base
+ * -------------------------------------------------------------------------- */
+* {
+  border: none;
+  border-radius: 0;
+  margin: 0;
+  padding: 0;
+  font-family: "Pixel Operator", "IBM Plex Mono", monospace;
+  font-size: 13px;
+  color: @fg;
+}
+
+/* -----------------------------------------------------------------------------
+ * Bar container
+ * -------------------------------------------------------------------------- */
+#waybar {
+  background: @bg;
+  border-top: 2px solid @accent;
+  border-left: 2px solid @accent;
+  border-right: 2px solid @bg3;
+  border-bottom: 2px solid @bg3;
+  padding: 2px 4px;
+  box-shadow: inset 1px 1px #dfdfdf;
+}
+
+/* -----------------------------------------------------------------------------
+ * Module styling
+ * -------------------------------------------------------------------------- */
+#battery,
+#clock,
+#cpu,
+#memory,
+#mode,
+#network,
+#pulseaudio,
+#temperature,
+#tray,
+#custom-menu,
+#custom-powermenu,
+#custom-theme,
+#taskbar,
+#window,
+#workspaces {
+  background: @bg;
+  border: 2px solid;
+  border-top-color: @accent;
+  border-left-color: @accent;
+  border-right-color: @bg3;
+  border-bottom-color: @bg3;
+  margin: 2px;
+  padding: 2px 6px;
+  box-shadow: inset 1px 1px #dfdfdf;
+}
+
+/* -----------------------------------------------------------------------------
+ * Menu (Start button)
+ * -------------------------------------------------------------------------- */
+#custom-menu {
+  font-weight: bold;
+  background: linear-gradient(to bottom, #e0e0e0, #b0b0b0);
+  color: #000;
+  border-top-color: #fff;
+  border-left-color: #fff;
+  border-right-color: #404040;
+  border-bottom-color: #404040;
+  padding: 2px 10px;
+}
+
+#custom-menu:hover {
+  background: #000080;
+  color: #fff;
+}
+
+/* -----------------------------------------------------------------------------
+ * Taskbar buttons
+ * -------------------------------------------------------------------------- */
+#taskbar button {
+  background: @bg;
+  border: 2px solid;
+  border-top-color: #fff;
+  border-left-color: #fff;
+  border-right-color: #404040;
+  border-bottom-color: #404040;
+  padding: 0 6px;
+  margin: 2px;
+  color: #000;
+}
+
+#taskbar button.active {
+  background: #000080;
+  color: #fff;
+  border-top-color: #404040;
+  border-left-color: #404040;
+  border-right-color: #fff;
+  border-bottom-color: #fff;
+}
+
+#taskbar button:hover {
+  background: #d0d0d0;
+}
+
+/* -----------------------------------------------------------------------------
+ * Workspaces
+ * -------------------------------------------------------------------------- */
+#workspaces button {
+  all: unset;
+  background: @bg;
+  padding: 2px 6px;
+  margin: 1px;
+  border: 2px solid;
+  border-top-color: #fff;
+  border-left-color: #fff;
+  border-right-color: #404040;
+  border-bottom-color: #404040;
+  color: #000;
+  font-weight: bold;
+}
+
+#workspaces button.active {
+  background: #000080;
+  color: #fff;
+  border-top-color: #404040;
+  border-left-color: #404040;
+  border-right-color: #fff;
+  border-bottom-color: #fff;
+}
+
+#workspaces button:hover {
+  background: #d0d0d0;
+}
+
+/* -----------------------------------------------------------------------------
+ * System tray, clock, etc.
+ * -------------------------------------------------------------------------- */
+#tray, #clock, #memory, #cpu, #network, #pulseaudio, #temperature {
+  color: #000;
+}
+
+#pulseaudio.muted {
+  color: #808080;
+}
+
+/* -----------------------------------------------------------------------------
+ * Power button (shutdown icon)
+ * -------------------------------------------------------------------------- */
+#custom-powermenu {
+  background: #b0b0b0;
+  color: #000;
+  border-top-color: #fff;
+  border-left-color: #fff;
+  border-right-color: #404040;
+  border-bottom-color: #404040;
+}
+
+#custom-powermenu:hover {
+  background: #800000;
+  color: #fff;
+}
+
+/* -----------------------------------------------------------------------------
+ * Theme button
+ * -------------------------------------------------------------------------- */
+#custom-theme {
+  color: #000;
+  background: #c0c0c0;
+}
+
+/* -----------------------------------------------------------------------------
+ * Window title
+ * -------------------------------------------------------------------------- */
+#window {
+  color: #000;
+  padding-left: 10px;
+}

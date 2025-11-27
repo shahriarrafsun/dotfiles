@@ -1,0 +1,16 @@
+@define-color bg        rgba(32, 64, 96, 0.85);
+@define-color bg2       rgba(64, 128, 192, 0.5);
+@define-color bg3       rgba(16, 32, 48, 0.9);
+@define-color fg        #ffffff;
+
+@define-color accent    #00b7ff;
+@define-color orange    #00b7ff;
+@define-color green     #4caf50;
+@define-color red       #ff5252;
+@define-color yellow    #ffeb3b;
+@define-color blue      #2196f3;
+@define-color purple    #90caf9;
+@define-color active    #00b7ff;
+
+@define-color wb-hvr-bg rgba(255,255,255,0.2);
+@define-color wb-hvr-color #ffffff;
